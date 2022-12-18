@@ -1,0 +1,2 @@
+class OrdProd < ApplicationRecord
+end
