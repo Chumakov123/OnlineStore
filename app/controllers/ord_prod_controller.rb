@@ -1,0 +1,2 @@
+class OrdProdController < ApplicationController
+end
