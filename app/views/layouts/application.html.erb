@@ -20,7 +20,7 @@
         <% if session[:user_id] %>
           <span class="btn"><%=link_to 'Профиль', user_path, method: :get %></span>
           <span class="btn"><%=link_to 'Оформить заказ', order_path, method: :get %></span>
-          <% if AdminUser.find_by_email(User.find_by_id(session[:user_id]).email) %>
+          <% if AdminUser.count>0&&AdminUser.find_by_email(User.find_by_id(session[:user_id]).email) %>
             <span class="btn"><%=link_to 'Администрирование', admin_user_path, method: :get %></span>
           <% end %>
         <% else %>
