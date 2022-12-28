@@ -1,2 +1,5 @@
-class UserController < ApplicationController
+class AdminUserController < ApplicationController
+  def new
+
+  end
 end

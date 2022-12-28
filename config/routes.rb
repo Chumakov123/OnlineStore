@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
   root "home#index"
 
-  get "login" => "login#new"
-  get "register" => "register#new"
+  get 'register', to: 'register#new'
+  post 'register', to: 'register#create'
+
+  get 'login', to: 'login#new'
+  post 'login', to: 'login#create'
+  #get 'logout', to: 'login#destroy'
+
+  resources :product
+
   get "image" => "image#new"
   get "admin_user" => "admin_user#new"
   get "user" => "user#new"

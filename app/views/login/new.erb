@@ -1,4 +1,15 @@
 <h2>Вход</h2>
-<h4>Почта: </h4>
-<h4>Пароль: </h4>
-<h4>Подтверждение пароля: </h4>
+<%= form_for :user, :class => 'form' do |f| %>
+  <div class="form-control-lg">
+
+    <%= f.email_field :email %>
+    <%= label_tag :email, 'Почта' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.password_field :password %>
+    <%= label_tag :password, 'Пароль' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.submit 'Войти' %>
+  </div>
+<% end %>

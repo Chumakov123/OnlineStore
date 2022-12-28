@@ -1,6 +1,27 @@
 <h2>Регистрация</h2>
-<h4>Имя: </h4>
-<h4>Почта: </h4>
-<h4>Номер телефона: </h4>
-<h4>Пароль: </h4>
-<h4>Подтверждение пароля: </h4>
+<%= form_for :user, :class => 'form' do |f| %>
+  <div class="form-control-lg">
+    <%= f.text_field :login %>
+    <%= label_tag :login, 'Имя' %>
+  </div>
+  <div class="form-control-lg">
+
+    <%= f.email_field :email %>
+    <%= label_tag :email, 'Почта' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.phone_field :phone %>
+    <%= label_tag :phone, 'Номер телефона' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.password_field :password %>
+    <%= label_tag :password, 'Пароль' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.password_field :password_confirmation %>
+    <%= label_tag :password_confirmation, 'Подтвердите пароль' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.submit 'Зарегистрироваться' %>
+  </div>
+<% end %>
