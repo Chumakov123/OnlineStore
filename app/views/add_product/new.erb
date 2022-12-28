@@ -1,0 +1,23 @@
+<h2>Добавление товара</h2>
+<%= form_for :product, :class => 'form' do |f| %>
+  <div class="form-control-lg">
+    <%= f.text_field :title %>
+    <%= label_tag :title, 'Наименование' %>
+  </div>
+  <div class="form-control-lg">
+
+    <%= f.text_area :description %>
+    <%= label_tag :description, 'Описание' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.text_field :price %>
+    <%= label_tag :price, 'Стоимость' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.collection_select :category_id, Category.all, :id, :title %>
+    <%= label_tag :category_id, 'Категория' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.submit 'Добавить товар' %>
+  </div>
+<% end %>

@@ -1,0 +1,10 @@
+<h2>Добавление категории</h2>
+<%= form_for :category, :class => 'form' do |f| %>
+  <div class="form-control-lg">
+    <%= f.text_field :title %>
+    <%= label_tag :title, 'Наименование' %>
+  </div>
+  <div class="form-control-lg">
+    <%= f.submit 'Добавить категорию' %>
+  </div>
+<% end %>
