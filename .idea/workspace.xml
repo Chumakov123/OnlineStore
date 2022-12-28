@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin_user_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/image_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/login_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/ord_prod_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/order_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/product_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/register_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/user_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/admin_user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20221222072316_create_admin_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/755a8fde-9e23-454d-946c-00a76a68838d.xml" beforeDir="false" />
+    <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="Update Database">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin_user/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/image/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/login/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/ord_prod/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/order/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/product/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/register/new.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user/new.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/online store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin_user_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221218141421_create_products.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20221218141421_create_products.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221218153857_create_images.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20221218153857_create_images.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221218154220_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20221218154220_create_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/image_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/login_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ord_prod_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/order_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/product_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/register_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/user_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ERB File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +55,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J5OYnxeIkieQRm7Q9fjKucclsU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,8 +66,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/RubyLabs/OnlineStore",
+    "last_opened_file_path": "D:/RubyLabs/OnlineStore/app/views/admin_user",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true",
     "settings.editor.selected.configurable": "terminal"
@@ -64,8 +76,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\RubyLabs\OnlineStore\app\controllers" />
-      <recent name="D:\RubyLabs\OnlineStore\app\views" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\admin_user" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\image" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\user" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\register" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\RubyLabs\OnlineStore\app\views\image" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -177,8 +195,18 @@
       <workItem from="1671529532433" duration="5218000" />
       <workItem from="1671626163005" duration="3483000" />
       <workItem from="1671690450034" duration="4895000" />
-      <workItem from="1671809446367" duration="327000" />
+      <workItem from="1671809446367" duration="811000" />
+      <workItem from="1672210137266" duration="695000" />
+      <workItem from="1672212402311" duration="8086000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Database">
+      <created>1671809818100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671809818100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +223,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Database" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/online_store@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1671370073829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
-    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1671467175046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
+    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672220409054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/OnlineStore@Development__OnlineStore.rcov" NAME="Development: OnlineStore Coverage Results" MODIFIED="1671362024181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="OnlineStore" />
   </component>
 </project>
