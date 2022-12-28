@@ -17,14 +17,15 @@ Rails.application.routes.draw do
   get 'add_category', to: 'add_category#new'
   post 'add_category', to: 'add_category#create'
 
-  scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
-    resource :password_reset, only: %i[new create edit update]
-  end
-
   get "image" => "image#new"
   get "admin_user" => "admin_user#new"
   get "user" => "user#new"
   get "ord_prod" => "ord_prod#new"
   get "product" => "product#new"
   get "order" => "order#new"
+
+  scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
+    resource :password_reset, only: %i[new create edit update]
+  end
+
 end

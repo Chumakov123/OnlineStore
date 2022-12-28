@@ -1,1 +1,46 @@
-<h2>Администратор</h2>
+<h1>Администратор</h1>
+
+<h2>Категории</h2>
+<div class="container">
+  <% Category.all.each do |category| %>
+    <p class="border-top"><%= category.title %></p>
+  <% end %>
+</div>
+<p><%=link_to 'Добавить категорию', 'add_category', method: :get %></p>
+
+<h2>Товары</h2>
+<div class="caption-top container">
+  <% Product.all.each do |product| %>
+    <h3 class="border-top text-danger"><%= product.title %></h3>
+    <div class="container">
+      <span>ОПИСАНИЕ: <%= product.description %><br></span>
+      <span class="flex-fill">СТОИМОСТЬ: <%= product.price %><br></span>
+      <span>КАТЕГОРИЯ: <%= Category.find_by_id(product.category_id).title %><br></span>
+      <span>ДАТА ПУБЛИКАЦИИ: <%= product.created_at %><br></span>
+    </div>
+  <% end %>
+</div>
+<p><%=link_to 'Добавить товар', 'add_product', method: :get %></p>
+
+<h2>Пользователи</h2>
+<div class="caption-top container">
+  <% User.all.each do |user| %>
+    <h3 class="border-top text-danger"><%= user.login %></h3>
+    <div class="container">
+      <span>ПОЧТА: <%= user.email %><br></span>
+      <span>НОМЕР ТЕЛЕФОНА: <%= user.phone %><br></span>
+      <span>ДАТА РЕГИСТРАЦИИ: <%= user.created_at %><br></span>
+    </div>
+  <% end %>
+</div>
+
+<h2>Заказы</h2>
+<div class="caption-top container">
+  <% Order.all.each do |order| %>
+    <h3 class="border-top text-danger"><%= order.login %></h3>
+    <div class="container">
+      <span>ID: <%= order.id %><br></span>
+      <span>ДАТА СОЗДАНИЯ: <%= order.created_at %><br></span>
+    </div>
+  <% end %>
+</div>

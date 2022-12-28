@@ -4,7 +4,7 @@ class CreateOrders < ActiveRecord::Migration[7.0]
       t.text :date
       t.float :price
       t.belongs_to :user, null: false, foreign_key: true
-      t.belongs_to :ord_prod, null: false, foreign_key: true
+      t.belongs_to :ord_prod, foreign_key: true
       t.timestamps
     end
   end
