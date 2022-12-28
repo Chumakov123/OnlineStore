@@ -42,3 +42,14 @@ en:
         email: Email
         submit: Send reset instructions
         back: Back to sign in
+    create:
+      success: Password reset instructions were sent your email address.
+    edit:
+      title: Enter new password
+      form:
+        submit: Reset my password!
+    update:
+      success: Password reset instructions were sent your email address.
+  users:
+    update:
+      success: Your profile was successfully updated
