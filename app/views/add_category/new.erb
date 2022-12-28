@@ -1,3 +1,9 @@
+<h2>Существующие категории</h2>
+<div class="container">
+  <% Category.all.each do |cat| %>
+    <p class="border-top"><%= cat.title %></p>
+  <% end %>
+</div>
 <h2>Добавление категории</h2>
 <%= form_for :category, :class => 'form' do |f| %>
   <div class="form-control-lg">

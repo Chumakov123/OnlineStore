@@ -4,7 +4,7 @@ class User < ApplicationRecord
   validates :email, uniqueness: {case_sensitive: false}, format:     { with: VALID_EMAIL_REGEX }
   before_save { self.email = email.downcase }
 
-  validates :password, length: {minimum: 6}
+  validates :password_digest, length: {minimum: 6}
   has_secure_password
 
   has_many :orders

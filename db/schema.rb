@@ -78,12 +78,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_22_072316) do
   create_table "users", force: :cascade do |t|
     t.string "login"
     t.string "email"
-    t.string "password"
+    t.string "password_digest"
     t.string "phone"
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer "order_id", null: false
+    t.integer "order_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["order_id"], name: "index_users_on_order_id"

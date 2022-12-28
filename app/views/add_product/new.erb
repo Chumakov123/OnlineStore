@@ -21,3 +21,16 @@
     <%= f.submit 'Добавить товар' %>
   </div>
 <% end %>
+
+<h2>Существующие товары</h2>
+<div class="caption-top container">
+  <% Product.all.each do |product| %>
+    <h3 class="border-top text-danger"><%= product.title %></h3>
+    <div class="container">
+      <p><%= product.description %></p>
+      <p><%= product.price %></p>
+      <p><%= product.rating %></p>
+      <p><%= product.votes %></p>
+    </div>
+  <% end %>
+</div>

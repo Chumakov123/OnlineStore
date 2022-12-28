@@ -1,10 +1,12 @@
 <h2>Ассортимент товаров</h2>
+<div class="caption-top container">
   <% @product.each do |product| %>
-    <div class="list-group">
-      <h3><%= product.title %></h3>
-      <p><%= product.description %></p>
-      <p><%= product.price %></p>
-      <p><%= product.rating %></p>
-      <p><%= product.votes %></p>
-    </div>
+      <h3 class="border-top text-danger"><%= product.title %></h3>
+      <div class="container">
+        <p><%= product.description %></p>
+        <p><%= product.price %></p>
+        <p><%= product.rating %></p>
+        <p><%= product.votes %></p>
+      </div>
   <% end %>
+</div>

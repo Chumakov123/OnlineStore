@@ -4,12 +4,10 @@ class AddProductController < ApplicationController
   end
   def create
     product = Product.new(product_params)
-    if product.save
-      redirect_to root_path
-    else
+    unless product.save
       flash[:error] = product.errors.full_messages
-      redirect_to add_product_path
     end
+    redirect_to add_product_path
   end
 
   private
