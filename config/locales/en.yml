@@ -31,3 +31,14 @@
 
 en:
   hello: "Hello world"
+  login:
+    new:
+      form:
+        forgot_password: I forgot my password
+  password_resets:
+    new:
+      title: Reset password
+      form:
+        email: Email
+        submit: Send reset instructions
+        back: Back to sign in

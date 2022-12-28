@@ -9,6 +9,10 @@
     <%= f.password_field :password %>
     <%= label_tag :password, 'Пароль' %>
   </div>
+
+  <%= link_to t('.form.forgot_password'), new_password_reset_path,
+    class: 'btn btn-secondary' %>
+
   <div class="form-control-lg">
     <%= f.submit 'Войти' %>
   </div>
