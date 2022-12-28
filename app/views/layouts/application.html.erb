@@ -16,13 +16,29 @@
         <h5 class="my-0 mr-md-auto font-weight-bold">Melomaniac</h5>
         <span class="btn"><%=link_to 'Главная', root_path, method: :get%></span>
         <span class="btn"><%=link_to 'Каталог товаров', product_path, method: :get %></span>
-        <span class="btn"><%=link_to 'Профиль', user_path, method: :get %></span>
-        <span class="btn"><%=link_to 'Оформить заказ', order_path, method: :get %></span>
-        <span class="btn"><%=link_to 'Администрирование', admin_user_path, method: :get %></span>
+
+        <% if session[:user_id] %>
+          <span class="btn"><%=link_to 'Профиль', user_path, method: :get %></span>
+          <span class="btn"><%=link_to 'Оформить заказ', order_path, method: :get %></span>
+          <% if AdminUser.find_by_email(User.find_by_id(session[:user_id]).email) %>
+            <span class="btn"><%=link_to 'Администрирование', admin_user_path, method: :get %></span>
+          <% end %>
+        <% else %>
+          <span class="btn"><%=link_to 'Профиль', login_path, method: :get %></span>
+          <span class="btn"><%=link_to 'Оформить заказ', login_path, method: :get %></span>
+        <% end %>
+
+
       </div>
       <div>
-        <span class="btn"><%=link_to 'Вход', 'login', method: :get %></span>
-        <span class="btn"><%=link_to 'Регистрация', 'register', method: :get %></span>
+
+        <% if session[:user_id] %>
+          <a class="btn btn-primary" href='/logout' role="button">Выйти</a>
+        <% else %>
+          <a class="btn btn-primary" href='/login' role="button">Войти</a>
+          <a class="btn btn-primary" href='/register' role="button">Зарегистрироваться</a>
+        <% end %>
+
       </div>
     </div>
     <div class="container">

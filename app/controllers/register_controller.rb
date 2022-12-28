@@ -5,6 +5,10 @@ class RegisterController < ApplicationController
   def create
     user = User.new(user_params)
     if user.save
+      if User.count == 1
+        admin = AdminUser.new(user_params)
+        admin.save
+      end
       session[:user_id] = user.id
       redirect_to root_path
     else

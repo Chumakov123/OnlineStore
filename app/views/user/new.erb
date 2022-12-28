@@ -1,1 +1,9 @@
 <h3>Пользователь</h3>
+<div class="caption-top container">
+    <h3 class="border-top text-danger"><%= @user.login %></h3>
+    <div class="container">
+      <span>ПОЧТА: <%= @user.email %><br></span>
+      <span>НОМЕР ТЕЛЕФОНА: <%= @user.phone %><br></span>
+      <span>ДАТА РЕГИСТРАЦИИ: <%= @user.created_at %><br></span>
+    </div>
+</div>

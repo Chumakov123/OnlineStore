@@ -1,6 +1,7 @@
 class UserController < ApplicationController
   def new
-    @user = User.new
+    @user = User.find_by_id(session[:user_id])
+    #@user = User.new
   end
 
   def edit; end
@@ -18,4 +19,5 @@ class UserController < ApplicationController
   def user_params
     params.require(:user).permit(:email, :password, :password_confirmation)
   end
+
 end
