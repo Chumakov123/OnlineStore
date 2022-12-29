@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="Html pages">
-      <change beforePath="$PROJECT_DIR$/.idea/online store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/add_category_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_category_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/add_order_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_order_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/add_product_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_product_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/admin_user_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/admin_user_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/category_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/category_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/register_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/register_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/admin_user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/admin_user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/category_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/category_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/product_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/product_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -200,7 +193,7 @@
       <workItem from="1672259437529" duration="9604000" />
       <workItem from="1672269314450" duration="3801000" />
       <workItem from="1672273340734" duration="1037000" />
-      <workItem from="1672284488906" duration="4538000" />
+      <workItem from="1672284488906" duration="6180000" />
     </task>
     <task id="LOCAL-00001" summary="Update Database">
       <created>1671809818100</created>
@@ -216,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672220928318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Html pages">
+      <created>1672290115860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672290115860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +240,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OnlineStore@test__online_store.rcov" NAME="test: online store Coverage Results" MODIFIED="1672288166957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
-    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672289746322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
+    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672290290896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/online_store@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1671370073829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/OnlineStore@Development__OnlineStore.rcov" NAME="Development: OnlineStore Coverage Results" MODIFIED="1671362024181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="OnlineStore" />
   </component>
