@@ -23,6 +23,9 @@ Rails.application.routes.draw do
   get 'delete_product', to: 'add_product#destroy'
   delete 'delete_product', to: 'add_product#destroy'
 
+  get 'add_order', to: 'add_order#new'
+  post 'add_order', to: 'add_order#create'
+
   get "image" => "image#new"
   get "admin_user" => "admin_user#new"
   get "user" => "user#new"

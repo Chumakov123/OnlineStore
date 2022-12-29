@@ -39,24 +39,15 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_22_072316) do
     t.index ["product_id"], name: "index_images_on_product_id"
   end
 
-  create_table "ord_prods", force: :cascade do |t|
-    t.integer "order_id", null: false
-    t.integer "product_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["order_id"], name: "index_ord_prods_on_order_id"
-    t.index ["product_id"], name: "index_ord_prods_on_product_id"
-  end
-
   create_table "orders", force: :cascade do |t|
     t.text "date"
     t.float "price"
-    t.integer "user_id", null: false
-    t.integer "ord_prod_id"
+    t.integer "users_id", null: false
+    t.integer "products_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["ord_prod_id"], name: "index_orders_on_ord_prod_id"
-    t.index ["user_id"], name: "index_orders_on_user_id"
+    t.index ["products_id"], name: "index_orders_on_products_id"
+    t.index ["users_id"], name: "index_orders_on_users_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -91,10 +82,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_22_072316) do
 
   add_foreign_key "admin_users", "orders"
   add_foreign_key "images", "products"
-  add_foreign_key "ord_prods", "orders"
-  add_foreign_key "ord_prods", "products"
-  add_foreign_key "orders", "ord_prods"
-  add_foreign_key "orders", "users"
+  add_foreign_key "orders", "products", column: "products_id"
+  add_foreign_key "orders", "users", column: "users_id"
   add_foreign_key "products", "categories"
   add_foreign_key "products", "images"
   add_foreign_key "products", "users"

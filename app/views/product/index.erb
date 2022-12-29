@@ -1,5 +1,8 @@
 <h2>Каталог товаров</h2>
 <div class="caption-top container">
+
+  <a href="/add_order">Добавить в корзину</a>
+
   <% @product.each do |product| %>
       <h3 class="border-top text-danger"><%= product.title %></h3>
       <div class="container">
@@ -9,6 +12,7 @@
         <span>ДАТА ПУБЛИКАЦИИ: <%= product.created_at %><br></span>
         <span><%= product.rating %><br></span>
         <span><%= product.votes %><br></span>
+
       </div>
   <% end %>
 </div>

@@ -1,1 +1,14 @@
 <h2>Заказ</h2>
+<div class="caption-top container">
+  <% User.all.each do |user| %>
+    <% Order.all.each do |order| %>
+      <% if user.id == order.users_id %>
+        <h3 class="border-top text-danger"><%= user.login %></h3>
+        <div class="container">
+          <span>ID: <%= order.id %><br></span>
+          <span>ДАТА СОЗДАНИЯ: <%= order.created_at %><br></span>
+        </div>
+      <% end %>
+    <% end %>
+  <% end %>
+</div>
