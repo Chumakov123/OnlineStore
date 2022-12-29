@@ -49,7 +49,7 @@ en:
       form:
         submit: Reset my password!
     update:
-      success: Password reset instructions were sent your email address.
+      success: Your password was reset!
     fail: Could not reset your password...
   user:
     update:

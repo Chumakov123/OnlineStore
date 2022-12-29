@@ -1,5 +1,7 @@
 <h1 class="mb-4"><%= t('.title') %></h1>
 
+<%= render 'shared/errors' %>
+
 <%= form_with model: @user, url: password_reset_path, method: :patch do |f| %>
   <%= f.hidden_field :password_reset_token, value: @user.reset_password_token %>
   <%= f.hidden_field :email, value: @user.email %>
