@@ -2,7 +2,8 @@ class Product < ApplicationRecord
   #validates :price => { :greater_than => 0 }
   validates :title, uniqueness: true, presence: true
   validates :price, presence: true
-  validate :price_must_be_positive
+  validate :price_must_be_positive unless :price.present?
+  validates :category_id, presence: true
 
   has_many :images
 
