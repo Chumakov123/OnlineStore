@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="Html pages">
-      <change afterPath="$PROJECT_DIR$/app/views/add_order/new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/244117c3-a021-475b-886d-a28c931c6963.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/244117c3-a021-475b-886d-a28c931c6963.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/online store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/order_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/order_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin_user/new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin_user/new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/ord_prod/new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/ord_prod/new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/order/new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/order/new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/product/index.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/product/index.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221218154617_create_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20221218154617_create_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221218154911_create_ord_prods.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/add_category_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_category_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/add_order_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_order_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/add_product_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/add_product_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/register_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/register_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/admin_user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/admin_user_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/category_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/category_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/product_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/product_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,11 @@
       <list>
         <option value="$PROJECT_DIR$" />
       </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="bundle install" />
     </option>
   </component>
   <component name="RunManager" selected="Rails.Development: online store">
@@ -195,6 +200,7 @@
       <workItem from="1672259437529" duration="9604000" />
       <workItem from="1672269314450" duration="3801000" />
       <workItem from="1672273340734" duration="1037000" />
+      <workItem from="1672284488906" duration="4538000" />
     </task>
     <task id="LOCAL-00001" summary="Update Database">
       <created>1671809818100</created>
@@ -233,8 +239,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Html pages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672273459823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
-    <SUITE FILE_PATH="coverage/OnlineStore@Development__OnlineStore.rcov" NAME="Development: OnlineStore Coverage Results" MODIFIED="1671362024181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="OnlineStore" />
+    <SUITE FILE_PATH="coverage/OnlineStore@test__online_store.rcov" NAME="test: online store Coverage Results" MODIFIED="1672288166957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
+    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672289746322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/online_store@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1671370073829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
+    <SUITE FILE_PATH="coverage/OnlineStore@Development__OnlineStore.rcov" NAME="Development: OnlineStore Coverage Results" MODIFIED="1671362024181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="OnlineStore" />
   </component>
 </project>
