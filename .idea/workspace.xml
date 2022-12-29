@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="Html pages">
+    <list default="true" id="8198db72-6348-47bd-8078-4d57be52037d" name="Changes" comment="Update orders page">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/244117c3-a021-475b-886d-a28c931c6963.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/244117c3-a021-475b-886d-a28c931c6963.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/admin_user_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/admin_user_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/category_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/category_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/order_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/product_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -53,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/RubyLabs/WarehouseProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/RubyLabs/OnlineStore&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
@@ -68,6 +62,9 @@
       <recent name="D:\RubyLabs\OnlineStore\app\views\product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\RubyLabs\OnlineStore\app\assets\images" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\add_category" />
+      <recent name="D:\RubyLabs\OnlineStore\app\views\add_product" />
       <recent name="D:\RubyLabs\OnlineStore\app\views\image" />
     </key>
   </component>
@@ -76,11 +73,6 @@
       <list>
         <option value="$PROJECT_DIR$" />
       </list>
-    </option>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="bundle install" />
     </option>
   </component>
   <component name="RunManager" selected="Rails.Development: online store">
@@ -189,11 +181,13 @@
       <workItem from="1672210137266" duration="695000" />
       <workItem from="1672212402311" duration="14491000" />
       <workItem from="1672228713776" duration="6128000" />
-      <workItem from="1672235060261" duration="326000" />
+      <workItem from="1672235060261" duration="2654000" />
+      <workItem from="1672237760504" duration="5356000" />
+      <workItem from="1672243732248" duration="30196000" />
       <workItem from="1672259437529" duration="9604000" />
       <workItem from="1672269314450" duration="3801000" />
       <workItem from="1672273340734" duration="1037000" />
-      <workItem from="1672284488906" duration="6180000" />
+      <workItem from="1672317872766" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="Update Database">
       <created>1671809818100</created>
@@ -209,14 +203,63 @@
       <option name="project" value="LOCAL" />
       <updated>1672220928318</updated>
     </task>
-    <task id="LOCAL-00003" summary="Html pages">
-      <created>1672290115860</created>
+    <task id="LOCAL-00003" summary="Update view">
+      <created>1672235554160</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1672290115860</updated>
+      <updated>1672235554160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update view">
+      <created>1672240444562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672240444562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix registration">
+      <created>1672249038916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672249038916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update Admin Panel">
+      <created>1672258089785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672258089785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Administrator">
+      <created>1672263227450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672263227450</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix validation">
+      <created>1672264165605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672264165605</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Removing items and categories">
+      <created>1672272474096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672272474096</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update orders page">
+      <created>1672279633945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672279633945</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,12 +279,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update Database" />
     <MESSAGE value="Html pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Html pages" />
+    <MESSAGE value="Update view" />
+    <MESSAGE value="Fix registration" />
+    <MESSAGE value="Update Admin Panel" />
+    <MESSAGE value="Administrator" />
+    <MESSAGE value="Fix validation" />
+    <MESSAGE value="Add Removing items and categories" />
+    <MESSAGE value="Update orders page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update orders page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OnlineStore@test__online_store.rcov" NAME="test: online store Coverage Results" MODIFIED="1672288166957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
-    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672290290896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/online_store@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1671370073829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
+    <SUITE FILE_PATH="coverage/OnlineStore@Development__online_store.rcov" NAME="Development: online store Coverage Results" MODIFIED="1672317901343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="online store" />
     <SUITE FILE_PATH="coverage/OnlineStore@Development__OnlineStore.rcov" NAME="Development: OnlineStore Coverage Results" MODIFIED="1671362024181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="OnlineStore" />
   </component>
 </project>
