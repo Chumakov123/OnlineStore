@@ -1,0 +1,11 @@
+<%- if flash[:error] %>
+  <div>
+    <ul class="mb-0">
+      <%-flash[:error].each do |error| %>
+        <li class="error_message">
+          <%= error %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

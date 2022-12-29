@@ -1,4 +1,7 @@
 <h2>Добавление товара</h2>
+
+<%= render 'shared/errors' %>
+
 <%= form_for :product, :class => 'form' do |f| %>
   <div class="form-control-lg">
     <%= f.text_field :title %>

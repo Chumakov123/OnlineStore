@@ -50,6 +50,7 @@ en:
         submit: Reset my password!
     update:
       success: Password reset instructions were sent your email address.
-  users:
+    fail: Could not reset your password...
+  user:
     update:
       success: Your profile was successfully updated

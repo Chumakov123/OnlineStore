@@ -1,4 +1,7 @@
 <h2>Вход</h2>
+
+<%= render 'shared/errors' %>
+
 <%= form_for :user, :class => 'form' do |f| %>
   <div class="form-control-lg">
 
@@ -16,4 +19,5 @@
   <div class="form-control-lg">
     <%= f.submit 'Войти' %>
   </div>
+
 <% end %>
