@@ -8,7 +8,6 @@
     <%= label_tag :title, 'Наименование' %>
   </div>
   <div class="form-control-lg">
-
     <%= f.text_area :description %>
     <%= label_tag :description, 'Описание' %>
   </div>
@@ -23,6 +22,7 @@
   <div class="form-control-lg">
     <%= f.submit 'Добавить товар' %>
   </div>
+
 <% end %>
 
 <h2>Существующие товары</h2>
@@ -34,8 +34,7 @@
       <span class="flex-fill">СТОИМОСТЬ: <%= product.price %><br></span>
       <span>КАТЕГОРИЯ: <%= Category.find_by_id(product.category_id).title %><br></span>
       <span>ДАТА ПУБЛИКАЦИИ: <%= product.created_at %><br></span>
-      <span><%= product.rating %><br></span>
-      <span><%= product.votes %><br></span>
+      <%= link_to 'Удалить',url_for(action: :destroy,id: product.id),method: :delete %>
     </div>
   <% end %>
 </div>

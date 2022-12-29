@@ -2,6 +2,11 @@ class AddCategoryController < ApplicationController
   def new
 
   end
+
+  def destroy
+    Category.destroy(params[:id])
+    redirect_to add_category_path
+  end
   def create
     category = Category.new(category_params)
     unless category.save
@@ -12,9 +17,15 @@ class AddCategoryController < ApplicationController
 
   private
 
-  def category_params
+   def category_params
     params.require(:category)
           .permit(:title
+          )
+  end
+
+  def destroy_params
+    params.require(:category)
+          .permit(:id
           )
   end
 end

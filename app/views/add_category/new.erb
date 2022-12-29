@@ -2,7 +2,10 @@
 
 <div class="container">
   <% Category.all.each do |cat| %>
-    <p class="border-top"><%= cat.title %></p>
+    <div class="d-flex flex-column flex-md-row align-items-center">
+      <span class="border-top container-fluid"><%= cat.title %></span>
+      <%= link_to 'Удалить',url_for(action: :destroy,id: cat.id),method: :delete %>
+    </div>
   <% end %>
 </div>
 <h2>Добавление категории</h2>

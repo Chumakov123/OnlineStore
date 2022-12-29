@@ -10,6 +10,11 @@ class AddProductController < ApplicationController
     redirect_to add_product_path
   end
 
+  def destroy
+    Product.destroy(params[:id])
+    redirect_to add_product_path
+  end
+
   private
 
   def product_params
@@ -19,5 +24,10 @@ class AddProductController < ApplicationController
                   :price,
                   :category_id
                   )
+  end
+
+  def destroy_params
+    params.require(:product)
+          .permit(:id)
   end
 end
