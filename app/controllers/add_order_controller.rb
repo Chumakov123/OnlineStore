@@ -1,5 +1,7 @@
 class AddOrderController < ApplicationController
-
+  def new
+    authenticate_user
+  end
   def create
     #@product = Product.all
 

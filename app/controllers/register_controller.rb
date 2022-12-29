@@ -1,6 +1,6 @@
 class RegisterController < ApplicationController
   def new
-
+    non_authenticate_user
   end
   def create
     user = User.new(user_params)

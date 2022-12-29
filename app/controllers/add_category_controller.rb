@@ -1,6 +1,6 @@
 class AddCategoryController < ApplicationController
   def new
-
+    check_admin
   end
 
   def destroy

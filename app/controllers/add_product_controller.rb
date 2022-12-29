@@ -1,6 +1,6 @@
 class AddProductController < ApplicationController
   def new
-
+    check_admin
   end
   def create
     product = Product.new(product_params)

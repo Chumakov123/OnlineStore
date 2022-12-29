@@ -13,7 +13,6 @@ class PasswordResetsController < ApplicationController
     end
 
     flash[:success] = t '.success'
-    redirect_to root_path
   end
 
   def edit
