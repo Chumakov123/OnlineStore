@@ -1,8 +1,5 @@
 <h2>Каталог товаров</h2>
 <div class="caption-top container">
-
-  <a href="/add_order">Добавить в корзину</a>
-
   <% @product.each do |product| %>
       <h3 class="border-top text-danger"><%= product.title %></h3>
       <div class="container">
@@ -10,9 +7,9 @@
         <span class="flex-fill">СТОИМОСТЬ: <%= product.price %><br></span>
         <span>КАТЕГОРИЯ: <%= Category.find_by_id(product.category_id).title %><br></span>
         <span>ДАТА ПУБЛИКАЦИИ: <%= product.created_at %><br></span>
-        <span><%= product.rating %><br></span>
-        <span><%= product.votes %><br></span>
-
+        <% if session[:user_id] %>
+          <%= link_to 'Добавить в корзину',url_for(action: :add_to_order,product_id: product.id,price:product.price,user_id: session[:user_id]),method: :add_to_order %>
+        <% end %>
       </div>
   <% end %>
 </div>

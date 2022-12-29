@@ -10,6 +10,11 @@ class AddProductController < ApplicationController
     redirect_to add_product_path
   end
 
+  def change
+    #Product.update(params)
+    #redirect_to add_product_path
+  end
+
   def destroy
     Product.destroy(params[:id])
     redirect_to add_product_path
