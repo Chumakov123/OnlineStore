@@ -7,7 +7,7 @@
         <span class="flex-fill">СТОИМОСТЬ: <%= product.price %><br></span>
         <span>КАТЕГОРИЯ: <%= Category.find_by_id(product.category_id).title %><br></span>
         <span>ДАТА ПУБЛИКАЦИИ: <%= product.created_at %><br></span>
-        <% if session[:user_id] %>
+        <% if session[:user_id ] %>
           <%= link_to 'Добавить в корзину',url_for(action: :add_to_order,product_id: product.id,price:product.price,user_id: session[:user_id]),method: :add_to_order %>
         <% end %>
       </div>
